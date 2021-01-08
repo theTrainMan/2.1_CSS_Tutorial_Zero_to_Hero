@@ -6,6 +6,38 @@ h2 {
     color: blue;
 }
 
-.services {
+h2[class=subtitle] {
     color: green;
+}
+
+img[src^="./img/"] {
+    border: 1px solid red;
+}
+
+img[src*="./img/"] {
+    border: 1px solid red;
+}
+
+h2[class~=article-subtitle] {
+    background-color: #03612a;
+}
+
+h2[class |=article-subtitle] {
+    background-color: salmon;
+}
+
+h2+a {
+    color: blue;
+}
+
+textarea~button {
+    color: purple;
+}
+
+ul>li {
+    color: green;
+}
+
+ul li {
+    color: hotpink;
 }
