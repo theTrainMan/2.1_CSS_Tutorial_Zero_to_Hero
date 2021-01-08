@@ -55,3 +55,12 @@ h3 {
     margin-left: 3px;
     padding-bottom: 10px;
 }
+
+.box4 {
+    border: 1px solid grey;
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+    margin-left: 3px;
+    padding-bottom: 10px;
+}
