@@ -65,3 +65,8 @@ p {
 .italics {
     font-style: oblique;
 }
+
+#about-us {
+    height: 300px;
+    width: 60%;
+}
