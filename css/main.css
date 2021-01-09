@@ -2,6 +2,12 @@ body {
     background: linear-gradient(to top, rgb(238, 216, 173), rgb(238, 216, 173, 0.4));
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
+    text-align: justify;
+    font-size: 1.15em;
+}
+
+p {
+    text-transform: none;
 }
 
 .clearfix {
@@ -10,6 +16,7 @@ body {
 
 #title {
     color: #1c2550;
+    font-weight: 600;
 }
 
 .subtitle {
@@ -47,4 +54,12 @@ body {
     background: radial-gradient(circle, red 20%, blue 40%, green 55%);
     height: 500px;
     width: 50%;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.italics {
+    font-style: oblique;
 }
