@@ -12,31 +12,31 @@
 
 <body>
     <!-- Introduction -->
-    <h1 class="title">My Website</h1>
+    <h1 id="title">My Website</h1>
     <!-- Links -->
     <a href="index.html">Index</a>
     <a href="home.html">Home</a>
     <!-- ./introduction -->
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore dicta facere eligendi quaerat perspiciatis ducimus mollitia beatae!</p>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore dicta facere eligendi quaerat perspiciatis ducimus mollitia beatae!</p>
 
-    <h2 class="subtitle article-subtitle">About Me</h2>
+    <h2 class="subtitle">About Me</h2>
     <img src="./img/img-1.jpg" alt="">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, a natus illo labore in ea laborum corrupti consequatur voluptates, illum autem? Expedita, facere. Eaque, ut. Incidunt corporis quis aliquam temporibus.Asperiores modi architecto eveniet
+    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, a natus illo labore in ea laborum corrupti consequatur voluptates, illum autem? Expedita, facere. Eaque, ut. Incidunt corporis quis aliquam temporibus.Asperiores modi architecto eveniet
         accusantium maiores fugit et eligendi perferendis ducimus totam blanditiis magnam ea doloribus repudiandae, sit neque. Libero recusandae laudantium ipsa molestiae impedit accusamus sed totam esse iusto.
         <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>laudantium ipsa molestiae</li>
-            <li>met consectetur adipisicing</li>
+            <li class="list-item">Lorem, ipsum dolor.</li>
+            <li class="list-item">laudantium ipsa molestiae</li>
+            <li class="list-item">met consectetur adipisicing</li>
             <ol>
-                <li>my numbered list item</li>
+                <li class="list-item">my numbered list item</li>
             </ol>
 
         </ul>
     </p>
 
-    <h2 class="subtitle services">Services</h2>
-    <a href="http://google.com" target="_blank">Google</a>
+    <h2 class="subtitle">Services</h2>
+    <a class="link" href="http://google.com" target="_blank">Google</a>
     <br><br>
 
     <table border="1">
@@ -63,10 +63,21 @@
 
     <img src="./img/img-2.jpg" alt="">
 
-    <h2 id="subtitle">Contact Us</h2>
+    <div class="clearfix"></div>
+
+    <div class="service-image"></div>
+    <div class="service-image1"></div>
+    <div class="service-image2"></div>
+    <br>
+    <div class="clearfix"></div>
+
+    <div class="service-image5"></div>
+
+    <div class="clearfix"></div>
+    <h2 class="subtitle">Contact Us</h2>
     <form action="">
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="">
+        <input class="form-input" type="text" placeholder="Full Name">
+        <input class="form-input" type="email" placeholder="">
         <textarea name="messgae" id="" cols="30" rows="10"></textarea>
         <button>Submit</button>
     </form>

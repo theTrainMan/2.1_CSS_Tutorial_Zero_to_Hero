@@ -1,43 +1,50 @@
-h2 {
-    color: red;
+body {
+    background: linear-gradient(to top, rgb(238, 216, 173), rgb(238, 216, 173, 0.4));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#title {
+    color: #1c2550;
 }
 
 .subtitle {
-    color: blue;
+    color: #839aff;
 }
 
-h2[class=subtitle] {
-    color: green;
+.service-image {
+    box-sizing: border-box;
+    float: left;
+    background-size: cover;
+    background: linear-gradient(to right, rgb(60, 110, 61), rgba(60, 110, 61, 0));
+    height: 400px;
+    width: 32%;
 }
 
-img[src^="./img/"] {
-    border: 1px solid red;
+.service-image1 {
+    box-sizing: border-box;
+    float: left;
+    background-size: cover;
+    background: linear-gradient(to top, rgb(60, 110, 61), rgba(60, 110, 61, 0));
+    height: 400px;
+    width: 32%;
 }
 
-img[src*="./img/"] {
-    border: 1px solid red;
+.service-image2 {
+    box-sizing: border-box;
+    float: left;
+    background-size: cover;
+    background: linear-gradient(215deg, rgb(60, 110, 61), rgba(60, 110, 61, 0));
+    height: 400px;
+    width: 32%;
 }
 
-h2[class~=article-subtitle] {
-    background-color: #03612a;
-}
-
-h2[class |=article-subtitle] {
-    background-color: salmon;
-}
-
-h2+a {
-    color: blue;
-}
-
-textarea~button {
-    color: purple;
-}
-
-ul>li {
-    color: green;
-}
-
-ul li {
-    color: hotpink;
+.service-image5 {
+    background: radial-gradient(circle, red 20%, blue 40%, green 55%);
+    height: 500px;
+    width: 50%;
 }
