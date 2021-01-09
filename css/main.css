@@ -1,13 +1,13 @@
 body {
     background: linear-gradient(to top, rgb(238, 216, 173), rgb(238, 216, 173, 0.4));
-    font-family: sans-serif;
     font-size: 1em;
     text-align: justify;
-    font-size: 1.15em;
+    font-family: 'Merriweather', serif;
 }
 
 p {
     text-transform: none;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .clearfix {
@@ -16,11 +16,13 @@ p {
 
 #title {
     color: #1c2550;
-    font-weight: 600;
+    font-family: 'Ramabhadra', sans-serif;
 }
 
 .subtitle {
     color: #839aff;
+    font-family: 'Lobster', cursive;
+    ;
 }
 
 .service-image {
