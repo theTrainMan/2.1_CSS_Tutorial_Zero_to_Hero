@@ -29,34 +29,11 @@ h3 {
     text-align: left;
 }
 
-.box1 {
-    border: 1px solid grey;
-    float: left;
-    width: 33%;
-    box-sizing: border-box;
-    margin-left: 3px;
-    padding-bottom: 10px;
-}
-
-.box2 {
-    border: 1px solid grey;
-    float: left;
-    width: 33%;
-    box-sizing: border-box;
-    margin-left: 3px;
-    padding-bottom: 10px;
-}
-
-.box3 {
-    border: 1px solid grey;
-    float: left;
-    width: 33%;
-    box-sizing: border-box;
-    margin-left: 3px;
-    padding-bottom: 10px;
-}
-
-.box4 {
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
     border: 1px solid grey;
     float: left;
     width: 33%;
